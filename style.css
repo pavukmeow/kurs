@@ -1,6 +1,6 @@
-/* html {
+html {
     font-size: calc(100vw / 1920 * 10);
-  }
+}
 body{
     background: rgb(219, 196, 241);
 }
@@ -10,71 +10,53 @@ body{
 .png-image{
     position: relative;
 }
-.slide1-text{
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 60%;
+    width: 100%;
+    left: -25%;
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
-    color: #cfb8ca;
-    font-size: 90px;
-    position: absolute;
-    left: 18%;
-    bottom: 50%;
-    width: 100%;
+    color: #24006c;
 }
-.fp-controlArrow.fp-prev{
-    border-color: transparent #cfb8ca transparent transparent;
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-.fp-controlArrow.fp-next{
-    border-color: transparent transparent transparent #cfb8ca;
+.menu-text{
+    color: #6d88bb;
+    font-size: 30px;
 }
-.slide2{
-    background: #927a91;
+.mikro-flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.section2{
-    background: #577ea0;
-}
-.demo-1__gallery {
-    height: 295rem;
-    position: relative;
-    visibility: hidden;
-  }
-
- */
-
-
-
-  html {
-    font-size: calc(100vw / 1920 * 10);
-  }
-body{
-    background: rgb(219, 196, 241);
-}
-.section.active{
-    display: block;
-}
-.png-image{
-    position: relative;
+.border{
+    width: 150px;
+    border: 1px solid #5674b9;
+    box-shadow: 0px 0px 5px #5674b9;
+    border-radius: 90px;
 }
 .slide1-text{
-    font-family: 'Amatic SC', cursive;
-    font-weight: bold;
-    color: #cfb8ca;
     font-size: 90px;
-    position: absolute;
-    left: 18%;
-    bottom: 50%;
-    width: 100%;
-}
+} 
 .fp-controlArrow.fp-prev{
-    border-color: transparent #cfb8ca transparent transparent;
+    border-color: transparent #5674b9 transparent transparent;
 }
 .fp-controlArrow.fp-next{
-    border-color: transparent transparent transparent #cfb8ca;
+    border-color: transparent transparent transparent #5674b9;
 }
 .slide2{
-    background: #927a91;
+    background: #000131;
 }
 .section2{
-    background: #577ea0;
+    background: #000131;
 }
 .demo-1__gallery {
     height: 295rem;
