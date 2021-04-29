@@ -66,16 +66,78 @@ body{
   
   .tilt-effect{
         height: 200px !important;
-        border: 1px solid #000;
   }
 
   .grid__img{
       height: 400px;
       width: 400px;
   }
-.page_1{
+.page{
     display: flex;
     justify-content: center;
 }
-  
+.grid__item{
+    padding-left: 55px;
+    margin-top: 70px;
+}
+.tilt{
+    border: 1px solid #5674b9;
+    box-shadow: 0px 0px 5px #5674b9;
+}
+.name-page-flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.name-page{
+    text-align: center;
+    margin-top: -40px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    color: #6b87c8;
+    font-size: 90px;
+}
+.name-page-border{
+    margin-top: 20px;
+    width: 400px;
+    border: 1px solid #6485d3;
+    box-shadow: 0px 0px 5px #6c81b3;
+}
+.flex-image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.name-image{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    color: #5674b9;
+    font-size: 40px;
+}
+.border-image{
+    margin-top: 20px;
+    width: 150px;
+    border: 1px solid #6485d3;
+    box-shadow: 0px 0px 5px #6c81b3;
+}
+.price-image{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    color: #7591d3;
+    font-size: 40px;
+}
+.point-image{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    color: #95ace0;
+    font-size: 40px;
+}
+
   
